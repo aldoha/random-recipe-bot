@@ -4,8 +4,8 @@ import telebot
 from dotenv import load_dotenv
 from telebot import types
 
-from main import choose_one
-from recipe_types import meal
+from random_link import choose_one
+from data.recipe_types import meal
 
 load_dotenv('.env')
 TOKEN = os.getenv('TOKEN')
